@@ -28,3 +28,4 @@ In this example, we have already specified a bit of HTML
 It is an SVG of 5 circles.  Spread out horizontally and transformed a bit out to see the items.  Note in your browser, the Y count goes down.
 
 
+![alt text](d3.ov.bubbles1.png)
