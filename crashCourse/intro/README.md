@@ -29,3 +29,14 @@ It is an SVG of 5 circles.  Spread out horizontally and transformed a bit out to
 
 
 ![alt text](d3.ov.bubbles1.png)
+
+Simple functions can use D3 to select items by Class and change styles/attributes
+
+```
+function updateTwo() {
+	d3.selectAll('circle')
+	.style('fill', 'blue')
+}
+```
+
+
