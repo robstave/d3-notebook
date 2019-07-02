@@ -38,5 +38,31 @@ function updateTwo() {
 	.style('fill', 'blue')
 }
 ```
+In the above case, we are selecting all the elements that are circles and setting their style to blue.
 
+We can put functions in there as well
+
+```
+function count() {
+	d3.selectAll('circle')
+	 
+  .attr('r', function(d, i) {
+    return 10 + i*i;
+  })
+}
+```
+
+In this case, the "d" is the data (which is undefined as of yet, and i is the index. This will make the circles get progressively bigger.
+
+Actions such as mouse in, out, and click can be attached to the dom as well
+
+```
+d3.selectAll('circle')
+  .on('click', function(d, i) {
+    d3.select('.status')
+      .text('You clicked on circle ' + i);
+    d3.select(this)
+      .style('fill', 'purple');
+  });
+```
 
