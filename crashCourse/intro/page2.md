@@ -2,8 +2,10 @@
 
 Data can be joined to the elements in the dom with the data call.
 
-See 
-https://jsbin.com/mevosok/edit?html,js,output
+We can take existing dom elements and associate them with data.
+
+See:
+https://jsbin.com/mevosok/1/edit?html,js,output
 
 In this case we have the code
 

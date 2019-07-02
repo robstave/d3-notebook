@@ -76,9 +76,10 @@ https://jsbin.com/saboset/edit?html,css,js,console,output
 
 In this case, we are starting again with some Pre-Configured SVG/HTML.
 
-Text Elements ( or groups, divs, whatever ) can be appended to existing elements.
+Text Elements ( or groups, divs, whatever ) can be appended to existing elements
+by selecting the elements and appending to the DOM
 
-```
+~~~~
 function addText() {
 	d3.selectAll('g.item')
   .append('text')
@@ -93,12 +94,13 @@ function removeText() {
   .remove('text')
   ; 
 }
-```
+
+~~~~
 
 
-Selection Functions (usually) return the selection, so they can be chained over and over and even filtered
+Selection functions (usually) return the selection, so they can be chained over and over and even filtered
 
-```
+~~~~
 function chainExample() {
 	d3.selectAll('g.item circle ')
     .attr('r', 30)
@@ -108,9 +110,11 @@ function chainExample() {
     .filter(function(d,i) { return i % 2 == 0 })
     .remove( )
 }
-```
+~~~~
 
-Check out the section on Selections in [https://www.d3indepth.com/selections/](https://www.d3indepth.com/selections/)
+
+Check out the section on Selections in: [D3 in Depth](https://www.d3indepth.com/selections/)
+
 for basically the same examples in a little more detail.
 
 So, now we know how to select stuff that was already there.
