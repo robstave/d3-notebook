@@ -12,5 +12,5 @@ Quick notes for team before starting.
 
 # Overview Notes
 
-## [Intro] (intro/README.MD)
+## [Intro](intro/README.MD)
 
