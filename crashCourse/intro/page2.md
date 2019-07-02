@@ -7,8 +7,8 @@ https://jsbin.com/mevosok/edit?html,js,output
 
 In this case we have the code
 
-'''
 
+~~~~
 var data1 = [
   { value: 33},
   { value: 22},
@@ -26,7 +26,7 @@ function joinData1() {
     })
   
 }
-'''
+~~~~~
 
 The select all returns the selection of 4 elements and the data call joins the data to the elements.  Function calls from that point on will refer to "d" as the data.  In this case, the value of the data will determine "r".
 
