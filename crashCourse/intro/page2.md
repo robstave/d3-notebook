@@ -5,7 +5,7 @@ Data can be joined to the elements in the dom with the data call.
 We can take existing dom elements and associate them with data.
 
 See:
-https://jsbin.com/mevosok/1/edit?html,js,output
+https://jsbin.com/mevosok/edit?html,js,output
 
 In this case we have the code
 
@@ -30,7 +30,7 @@ function joinData1() {
 }
 ~~~~~
 
-The select all returns the selection of 4 elements and the data call joins the data to the elements.  Function calls from that point on will refer to "d" as the data.  In this case, the value of the data will determine "r".
+The selectAll returns the selection of 4 elements and the data call joins the data to the elements.  Function calls from that point on will refer to "d" as the data.  In this case, the value of the data will determine "r".
 
 
 [https://www.d3indepth.com/datajoins/](https://www.d3indepth.com/datajoins/) goes a little more in depth here. 
