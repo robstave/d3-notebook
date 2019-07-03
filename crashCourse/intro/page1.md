@@ -108,6 +108,7 @@ function removeText() {
 
 
 
+## Chaining
 
 Selection functions (usually) return the selection, so they can be chained over and over and even filtered
 
