@@ -12,5 +12,12 @@ Quick notes for team before starting.
 
 # Overview Notes
 
-## [Intro](intro/README.MD)
+## [Intro](intro/README.md)
 
+- [Page 1](intro/page1.md) - Selections, functions and chaining
+- [Page 2](intro/page2.md) - Join
+- [Page 3](intro/page3.md) - Append
+- [Page 4](intro/page4.md) - Axis example
+
+## [Resizing](resize/README.md)
+tbd
