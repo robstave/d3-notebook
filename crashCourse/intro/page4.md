@@ -68,15 +68,11 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
     height = 100 - margin.top - margin.bottom;
 ```
 To make it responsive, you usually locate the bounding box and then work from there.
-We will get to that later.
-
-
+If the size of the view changes, you can event off of it and resize accordingly.
  
-
-
-
-
- 
+## Resizing Axes
+If things like your max value change, you need to resize your axes as well as your 
+data.  Here is an example the demonstrates this.
 
 
 https://jsbin.com/zurogab/edit?html,js,console,output
