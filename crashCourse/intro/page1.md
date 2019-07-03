@@ -6,9 +6,14 @@ It is a JS library used to create data visualizations in web browsers.  It makes
 
 It relies heavily on the DOM and feels a bit like jquery to a degree. Elements can be selected and manipulated with CSS.
 
-Once elements are selected, you can associate them with data as well.  This is where the data driven comes in.  Once an element is bound to data, it can be rendered in any number of ways.
+Once elements are selected, you can associate them with data.  This is where the data driven comes in.  Once an element is bound to data, it can be rendered in any number of ways.
 
 ## Selection
+
+The first thing you need to know is how to access the DOM.  This is done with selections.  There are two basic functions.
+
+- select()  - Select the first item that matches the query
+- selectAll() - Select all items that match the query
 
 Lets start with a simple example:
 
@@ -27,12 +32,12 @@ In this example, we have already specified a bit of HTML
 		</g>
 	</svg>
 ```
-It is an SVG of 5 circles.  Spread out horizontally and transformed a bit out to see the items.  Note in your browser, the Y count goes down.
+It is an SVG of 5 circles.  Spread out horizontally and transformed a bit out to see the items.  Note in your browser, the Y values goes down.
 
 
-![alt text](d3.ov.bubbles1.png)
+![alt text](images/d3.ov.bubbles1.png)
 
-Simple functions can use D3 to select items by Class and change styles/attributes
+Simple functions can use D3 to select items by class, id or other CSS tags and then change their respective styles/attributes.
 
 ```
 function updateTwo() {
@@ -70,6 +75,8 @@ d3.selectAll('circle')
 
 ## Append and Remove - Simple
 
+Once you have access to the parts of the DOM, you can modify it. Pretty much just like JQuery.
+
 Here is an example of append and remove.
 
 https://jsbin.com/saboset/edit?html,css,js,console,output
@@ -96,6 +103,10 @@ function removeText() {
 }
 
 ~~~~
+
+![alt text](images/d3.ov.text.png)
+
+
 
 
 Selection functions (usually) return the selection, so they can be chained over and over and even filtered
